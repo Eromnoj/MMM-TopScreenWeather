@@ -7,9 +7,7 @@ module.exports = NodeHelper.create({
     },
 
     getWeather: async function() {
-		//
-		// locationID: "3014697",
-		// apiKey: "fe504c87354836a1a637139c3f30c5b2",
+
         const response = await fetch('https://api.openweathermap.org/geo/1.0/direct?q=' + this.config.city + ',' + this.config.countryCode + '&appid=' + this.config.apiKey)
 		const latLon = await response.json()
 
