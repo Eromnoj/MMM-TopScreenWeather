@@ -1,0 +1,48 @@
+.TSW_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 20px;
+}
+
+.TSW_forecast {
+  padding: 10px;
+  text-align: left;
+}
+
+.TSW_city {
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.TSW_infosContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.TSW_temperature {
+  font-size: 3em;
+  font-weight: bolder;
+}
+
+.TSW_wind {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('compass.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.TSW_windArrow {
+  margin: auto;
+  height: 90px;
+  width: 60px;
+}
+
+.TSW_windArrow img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
